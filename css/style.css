@@ -1387,7 +1387,10 @@ html {
     }
     #big-logo {
         width: 50% !important;
-    }
+	}
+	h1.white-text {
+		font-size: 25px;
+	}
 }
 
 .icon {
