@@ -58,7 +58,7 @@
 		src="https://www.facebook.com/tr?id=338162057692912&ev=PageView&noscript=1"
 		/></noscript>
 		<!-- End Facebook Pixel Code -->
-		
+
     </head>
 	<body data-spy="scroll" data-target=".navbar" data-offset="100" style="padding-top: 100px;">
 
@@ -298,6 +298,7 @@
 						</div>
 
 						<!-- /single course -->
+						<!--
 
 						<div class="col-md-3 col-sm-6 col-xs-6">
 							<div class="course">
@@ -313,6 +314,7 @@
 								</div>
 							</div>
 						</div>
+						-->
 						<!-- /single course -->
 
 					</div>
@@ -661,5 +663,11 @@
                  $('.navbar-toggler').click();
              }
          }
+		 $(document).ready(function() {
+			if(window.location.href.indexOf('#exampleModal') != -1) {
+  			$('#exampleModal').modal('show');
+			}
+
+		});
     </script>
 </html>
